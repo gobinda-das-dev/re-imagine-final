@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Importing Fonts */
+@font-face {
+  font-family: grotesk;
+  src: url("/fonts/Sh_Ad_Grotesk_MediumExt._Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: neuehaas;
+  src: url("/fonts/NeueHaasDisplayLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: bebasneue;
+  src: url("/fonts/BebasNeue.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: glacial;
+  src: url("/fonts/GlacialIndifference.woff2") format("woff2");
+}
+
+
+canvas {
+  display: block;
+}
+
+
+/* ------------------menu animation-------------------- */
+
+.blur-css {
+  background-color: rgba(26, 26, 26, 0.48);
+  backdrop-filter: blur(20px);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem 1rem;
+}
+
+@media (max-width: 767px) {
+  .blur-css {
+
+    padding: 0 1rem 1rem;
+    margin-top: -0.4rem;
+  }
+}
+
+.hover-css {
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #4343437a;
+  }
+}
+
+.span-tags {
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  line-height: 1;
+  padding: 0.4rem 0.5rem;
+  border-radius: 100px;
+}
+
+.on-hover-animation:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform 0.8s ease;
+}
+
+.on-hover-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+
+
+.hover_animation {
+  clip-path: polygon(2.652% 10.489%, 88.577% 10.489%, 88.577% 10.489%, 89.008% 10.42%, 89.416% 10.221%, 89.796% 9.903%, 90.144% 9.477%, 90.453% 8.953%, 90.718% 8.342%, 90.934% 7.654%, 91.094% 6.902%, 91.195% 6.095%, 91.23% 5.244%, 91.23% 5.244%, 91.264% 4.394%, 91.365% 3.587%, 91.526% 2.834%, 91.741% 2.147%, 92.006% 1.536%, 92.316% 1.012%, 92.663% 0.585%, 93.044% 0.267%, 93.452% 0.069%, 93.882% 0%, 97.348% 0%, 97.348% 0%, 97.778% 0.069%, 98.186% 0.267%, 98.567% 0.585%, 98.914% 1.012%, 99.223% 1.536%, 99.488% 2.147%, 99.704% 2.834%, 99.865% 3.587%, 99.965% 4.394%, 100% 5.244%, 100% 66.806%, 100% 66.806%, 99.965% 67.656%, 99.865% 68.463%, 99.704% 69.216%, 99.488% 69.903%, 99.223% 70.514%, 98.914% 71.038%, 98.567% 71.465%, 98.186% 71.783%, 97.778% 71.981%, 97.348% 72.05%, 75.497% 72.05%, 75.497% 72.05%, 75.067% 72.119%, 74.659% 72.317%, 74.278% 72.635%, 73.931% 73.062%, 73.622% 73.586%, 73.357% 74.197%, 73.141% 74.884%, 72.98% 75.637%, 72.88% 76.444%, 72.845% 77.294%, 72.845% 94.756%, 72.845% 94.756%, 72.81% 95.606%, 72.71% 96.413%, 72.549% 97.166%, 72.333% 97.853%, 72.068% 98.464%, 71.759% 98.988%, 71.412% 99.415%, 71.031% 99.733%, 70.623% 99.931%, 70.193% 100%, 8.379% 100%, 8.379% 100%, 7.948% 99.931%, 7.54% 99.733%, 7.16% 99.415%, 6.812% 98.988%, 6.503% 98.464%, 6.238% 97.853%, 6.022% 97.166%, 5.862% 96.413%, 5.761% 95.606%, 5.726% 94.756%, 5.726% 46.901%, 5.726% 46.901%, 5.692% 46.05%, 5.591% 45.243%, 5.43% 44.491%, 5.215% 43.804%, 4.95% 43.193%, 4.64% 42.669%, 4.293% 42.242%, 3.912% 41.924%, 3.504% 41.725%, 3.074% 41.657%, 2.652% 41.657%, 2.652% 41.657%, 2.222% 41.588%, 1.814% 41.389%, 1.433% 41.071%, 1.086% 40.645%, 0.777% 40.121%, 0.512% 39.51%, 0.296% 38.822%, 0.135% 38.07%, 0.035% 37.263%, 0% 36.412%, 0% 15.733%, 0% 15.733%, 0.035% 14.882%, 0.135% 14.075%, 0.296% 13.323%, 0.512% 12.636%, 0.777% 12.025%, 1.086% 11.501%, 1.433% 11.074%, 1.814% 10.756%, 2.222% 10.557%, 2.652% 10.489%);
+}
+
+.cards-section {   
+  .card {
+    perspective: 400px;
+
+    .bg {
+      background-image: url('/images/cardback.png');
+    }
+
+    .details {
+      transform: rotateY(90deg);
+    }
+  }
+}
+
+.aspect-card {
+  aspect-ratio: 314 / 438;
+}

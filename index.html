@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/adobe-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adobe Firefly</title>
+  </head>
+  <body>
+    <div id="container" class="absolute top-0 left-0 w-full h-screen"></div>
+    <nav class="w-full fixed top-0 left-0 z-30  py-10 flex justify-between sm:px-28 items-start">
+
+			<!-- Logo and Home -->
+			<div class="first-wrapper flex gap-4 items-start sm:mx-0 mx-auto text-white">
+				<!-- Logo Container -->
+				<div
+					class="logo sm:flex hidden blur-css cursor-pointer w-20 h-14 rounded-xl  items-center justify-between">
+					<img src="/images/adobe-logo.png" alt="">
+				</div>
+
+				<!-- Home & Toggler -->
+				<div class="home-section w-fit overflow-hidden h-14 rounded-xl">
+					<div class=" blur-css text-xl w-[350px] flex-col">
+						<div class="w-full flex justify-between items-center cursor-pointer">
+							<div class="flex items-center  sm:py-1 py-4 gap-2">
+								<h1 class="sm:block hidden ">Adobe Firefly</h1>
+								<img class="w-10 sm:hidden" src="/images/logo.png" alt="">
+								<div class="rect w-[5px] opacity-0 sm:opacity-100 h-[5px] rotate-45 bg-white ">
+								</div>
+							</div>
+							<div class="lines cursor-pointer flex flex-col gap-[4px] w-4">
+								<div class="line h-[2px] w-1/2 ml-auto bg-white rounded-full">
+								</div>
+								<div class="line h-[2px] w-full bg-white rounded-full">
+								</div>
+								<div class="line h-[2px] w-1/2 mr-auto bg-white rounded-full">
+								</div>
+							</div>
+						</div>
+						<div class="nav-sec navs text-3xl py-10">
+							<ul class="leading-10">
+								<li>
+									<h1 class="on-hover-animation relative inline">
+										<a href="/">Photoshop</a>
+									</h1>
+								</li>
+								<li class="flex gap-2 items-center">
+									<h1 class="on-hover-animation relative">
+										<a href="./ourwork.html">illustrator</a>
+								</li>
+								<li>
+									<h1 class="on-hover-animation relative inline">
+										<a href="./about.html">Premiere Pro</a>
+									</h1>
+								</li>
+								<li class="flex gap-2 items-center cursor-wait">
+									<h1 class="on-hover-animation relative">
+										<a href="./services.html">Lightroom</a>
+									</h1>
+								</li>
+							</ul>
+						</div>
+						<div class="nav-sec socials bg-[#4343437a] px-4 py-4 rounded-xl">
+							<div class="py-4">
+								<ul class="leading-10">
+									<li class="flex flex-row gap-2 items-center hover:cursor-pointer ">
+										<a href="#our-work" class="flex flex-row gap-2 items-center">
+											<i>
+												<svg class="size-4" width="91" height="117" viewBox="0 0 91 117"
+													fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M5 5L5 91" stroke="white" stroke-width="10"
+														stroke-linecap="square" />
+													<line x1="60" y1="91" y2="91" stroke="white" stroke-width="10" />
+													<path d="M51.75 68.4164L90 90.5L51.75 112.584L51.75 68.4164Z"
+														fill="white" stroke="white" />
+												</svg>
+											</i>
+											<h1 class="on-hover-animation relative">
+												Our Products</h1>
+										</a>
+										<!-- <span class="span-tags">Coming
+											soon</span> -->
+									</li>
+									<li class="flex gap-2 items-center">
+										<a href="#our-expertise" class="flex flex-row gap-2 items-center">
+											<i>
+												<svg class="size-4" width="91" height="117" viewBox="0 0 91 117"
+													fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M5 5L5 91" stroke="white" stroke-width="10"
+														stroke-linecap="square" />
+													<line x1="60" y1="91" y2="91" stroke="white" stroke-width="10" />
+													<path d="M51.75 68.4164L90 90.5L51.75 112.584L51.75 68.4164Z"
+														fill="white" stroke="white" />
+												</svg>
+											</i>
+											<h1 class="on-hover-animation relative  hover:cursor-pointer">
+												Creative Cloud</h1>
+										</a>
+										<!-- <span class="span-tags">06</span> -->
+									</li>
+									<li class="flex gap-2 items-center">
+										<a href="#our-blogs" class="flex flex-row gap-2 items-center">
+											<i>
+												<svg class="size-4" width="91" height="117" viewBox="0 0 91 117"
+													fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M5 5L5 91" stroke="white" stroke-width="10"
+														stroke-linecap="square" />
+													<line x1="60" y1="91" y2="91" stroke="white" stroke-width="10" />
+													<path d="M51.75 68.4164L90 90.5L51.75 112.584L51.75 68.4164Z"
+														fill="white" stroke="white" />
+												</svg>
+											</i>
+											<h1 class="on-hover-animation relative  hover:cursor-pointer">
+												Customer Support
+											</h1>
+										</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+						<div class="info nav-sec flex justify-between items-center py-4 px-4 mt-4 bg-[#4343437a] rounded-xl">
+							<div class="w-[60%]">
+								<a href="contact.html">
+									<h1>Contact Us</h1>
+								</a>
+							</div>
+							<div class="w-fit h-fit sm:flex hidden">
+								<a class="decoration" href="https://www.linkedin.com/company/hypelabs-marketing-consultancy/posts/?feedView=all">
+									<svg class="scale-[0.4]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M15.9383 42.1348H8.96562V19.623H15.9383V42.1348ZM16.634 12.4508C16.634 10.1967 14.8052 8.36719 12.5523 8.36719C10.2909 8.36719 8.4668 10.1967 8.4668 12.4508C8.4668 14.7056 10.2909 16.5352 12.5523 16.5352C14.8052 16.5352 16.634 14.7056 16.634 12.4508ZM42.0352 29.7497C42.0352 23.7066 40.7585 19.2246 33.6991 19.2246C30.3069 19.2246 28.0299 20.9211 27.1004 22.6853H27.0938V19.623H20.3203V42.1348H27.0938V30.9575C27.0938 28.0303 27.8389 25.1946 31.4672 25.1946C35.0462 25.1946 35.1621 28.542 35.1621 31.1435V42.1348H42.0352V29.7497ZM51 45.0234V5.97656C51 2.68089 48.3191 0 45.0234 0H5.97656C2.68089 0 0 2.68089 0 5.97656V45.0234C0 48.3191 2.68089 51 5.97656 51H45.0234C48.3191 51 51 48.3191 51 45.0234ZM45.0234 3.98438C46.1219 3.98438 47.0156 4.87814 47.0156 5.97656V45.0234C47.0156 46.1219 46.1219 47.0156 45.0234 47.0156H5.97656C4.87814 47.0156 3.98438 46.1219 3.98438 45.0234V5.97656C3.98438 4.87814 4.87814 3.98438 5.97656 3.98438H45.0234Z" fill="white"/>
+									</svg>
+								</a>
+								<a class="decoration" href="https://www.instagram.com/hypelabs.in/">
+									<svg class="scale-[0.4]" width="51" height="52" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M0.484375 13.1621C0.484375 6.12047 6.19274 0.412109 13.2344 0.412109H38.7344C45.7761 0.412109 51.4844 6.12047 51.4844 13.1621V38.6621C51.4844 45.7038 45.7761 51.4121 38.7344 51.4121H13.2344C6.19274 51.4121 0.484375 45.7038 0.484375 38.6621V13.1621ZM13.2344 5.04847C8.75333 5.04847 5.12074 8.68106 5.12074 13.1621V38.6621C5.12074 43.1432 8.75333 46.7757 13.2344 46.7757H38.7344C43.2154 46.7757 46.848 43.1432 46.848 38.6621V13.1621C46.848 8.68106 43.2154 5.04847 38.7344 5.04847H13.2344Z" fill="white"/>
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M25.9872 16.6383C20.866 16.6383 16.7145 20.7899 16.7145 25.911C16.7145 31.0321 20.866 35.1838 25.9872 35.1838C31.1083 35.1838 35.2599 31.0321 35.2599 25.911C35.2599 20.7899 31.1083 16.6383 25.9872 16.6383ZM12.0781 25.911C12.0781 18.2293 18.3054 12.002 25.9872 12.002C33.669 12.002 39.8963 18.2293 39.8963 25.911C39.8963 33.5928 33.669 39.8201 25.9872 39.8201C18.3054 39.8201 12.0781 33.5928 12.0781 25.911Z" fill="white"/>
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M35.2578 12.0036C35.2578 9.44296 37.3335 7.36719 39.8942 7.36719C42.4548 7.36719 44.5305 9.44296 44.5305 12.0036C44.5305 14.5641 42.4548 16.6399 39.8942 16.6399C37.3335 16.6399 35.2578 14.5641 35.2578 12.0036Z" fill="white"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Chat & Contact Us -->
+			<div class="second-wrapper sm:flex hidden gap-4 items-start text-white">
+
+
+				<!-- Contact Us -->
+				<div
+					class="contact-us blur-css hover-css cursor-pointer h-14 flex gap-3 items-center font-neuehaas tracking-widest">
+					<h1><a href="./contact.html">Contact us</a></h1>
+					<div class="contact-logo h-3">
+						<svg class="h-full" viewBox="0 0 8 10" fill="none" aria-hidden="true">
+							<path d="M2.2 1.4l3.48 3.317A.4.4 0 0 1 5.798 5a.4.4 0 0 1-.118.283L2.2 8.6"
+								stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+							</path>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+    <main class="min-h-screen w-full relative z-10 text-white">
+      <section id="hero" class="hero h-screen relative flex flex-col items-center justify-center">
+        <h1 class="text-[8vw] text-center w-[65%] mx-auto leading-none">Create with <span class="italic">Firefly</span> generative AI.</h1>
+      </section>
+
+
+
+      <section class="pin-section w-full bg-blue-900 p-10 flex justify-between hidden">
+        <div class="pb-[40vh] pt-[10vh]">
+          <div class="desc pl-[2vw] border-l border-blue-700 pb-[15vh] relative flex flex-col gap-[3vh] text-[#ffffff90]">
+            <div class="size-2 rounded-full bg-blue-700 absolute left-0 top-0 -translate-x-[4px] -translate-y-1/2"></div>
+            <span>01</span>
+            <h1 class="text-4xl">Dummy heading</h1>
+            <p class="w-[80%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, ipsam?</p>
+          </div>
+          <div class="desc pl-[2vw] border-l border-blue-700 pb-[15vh] relative flex flex-col gap-[3vh] text-[#ffffff90]">
+            <div class="size-2 rounded-full bg-blue-700 absolute left-0 top-0 -translate-x-[4px] -translate-y-1/2"></div>
+            <span>01</span>
+            <h1 class="text-4xl">Dummy heading</h1>
+            <p class="w-[80%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, ipsam?</p>
+          </div>
+          <div class="desc pl-[2vw] border-l border-blue-700 pb-[15vh] relative flex flex-col gap-[3vh] text-[#ffffff90]">
+            <div class="size-2 rounded-full bg-blue-700 absolute left-0 top-0 -translate-x-[4px] -translate-y-1/2"></div>
+            <span>01</span>
+            <h1 class="text-4xl">Dummy heading</h1>
+            <p class="w-[80%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, ipsam?</p>
+          </div>
+          <div class="desc pl-[2vw] border-l border-blue-700 pb-[15vh] relative flex flex-col gap-[3vh] text-[#ffffff90]">
+            <div class="size-2 rounded-full bg-blue-700 absolute left-0 top-0 -translate-x-[4px] -translate-y-1/2"></div>
+            <span>01</span>
+            <h1 class="text-4xl">Dummy heading</h1>
+            <p class="w-[80%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, ipsam?</p>
+          </div>
+        </div>
+
+       <div class="pin-model h-[40vh] w-1/2 bg-zinc-800">
+       </div>
+      </section>
+
+
+      <section id="our-expertise" class="cards-headings bg-[#050505] sm:pt-[20rem] pt-[10vh]">
+        <div class="w-full text-white ">
+          <div class="flex justify-between items-center sm:px-12 px-4">
+            <h1
+              class="text-[12vw] bg-teal-40 w-fit whitespace-nowrap font-neuehaas leading-none tracking-wide font-bold antialiased">
+              AREA OF</h1>
+            <div class="w-full sm:block hidden sm:w-[20%]  h-full ">
+              <h5 class="text-[0.9vw] font-neuehaas font-semibold tracking-wider uppercase">A Dynamic Team
+                with Extensive Skills and Expertise.</h5>
+              <div class="flex mt-4 gap-2">
+                <div class="h-12 rounded-[5px] border aspect-card grid place-items-center">
+                  <h1 class="font-grotesk font-semibold">M</h1>
+                </div>
+                <div class="h-12 rounded-[5px] border aspect-card grid place-items-center">
+                  <h1 class="font-grotesk font-semibold">B</h1>
+                </div>
+                <div class="h-12 rounded-[5px] border aspect-card grid place-items-center">
+                  <h1 class="font-grotesk font-semibold">T</h1>
+                </div>
+                <div class="h-12 rounded-[5px] border aspect-card grid place-items-center">
+                  <h1 class="font-grotesk font-semibold">D</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1
+            class="text-[12vw] font-neuehaas leading-none font-bold ml-[30%] tracking-wide subpixel-antialiased">
+            EXPERTISE</h1>
+  
+          <div class="w-full sm:hidden block px-12 mt-4  h-fit">
+            <h5 class="text-[3vw] font-neuehaas font-semibold tracking-wider">A
+              TEAM OF EPERIENCED PROFESSIONALS WITH A WIDE RANGE OF SKILLS AND
+              KNOWLEDGE</h5>
+            <div class="flex mt-4 gap-2">
+              <div class="h-12 rounded-[5px] border aspect-card grid place-items-center">
+                <h1 class="font-grotesk font-semibold">M</h1>
+              </div>
+              <div class="h-12 rounded-[5px] border aspect-card grid place-items-center">
+                <h1 class="font-grotesk font-semibold">B</h1>
+              </div>
+              <div class="h-12 rounded-[5px] border aspect-card grid place-items-center">
+                <h1 class="font-grotesk font-semibold">T</h1>
+              </div>
+              <div class="h-12 rounded-[5px] border aspect-card grid place-items-center">
+                <h1 class="font-grotesk font-semibold">D</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+            
+
+      <!--? Cards Section -->
+      <section class="cards-section text-black relative bg-[#050505] flex flex-col sm:flex-row justify-center items-center nax-sn: py-[5vh] sm:h-screen w-full">
+      </section>
+  
+      		<!--? for horizontal scroll -->
+		<section class=" sm:block hidden animate-scroll-parent relative bg-purple-700 w-full overflow-hidden">
+			<!-- Moving Yellow Gredient -->
+			<div class="bg_movingdiv fixed w-[120rem] h-[80rem] blur-[200px] bg-[#7438F2] rounded-full">
+			</div>
+			<section class="animate-scroll w-[300vw] h-screen flex">
+
+				<!-- First ScrollerDiv -->
+				<div class="z-10 w-screen h-screen flex flex-col items-center justify-start">
+					<h1
+						class="growth fixed left-0 top-0 z-[5] text-[24rem] pointer-events-none select-none text-white font-semibold opacity-10">
+						GROWTH</h1>
+
+					<h1
+						class="w-[75vw] py-12 mt-[6vw] text-[3.5vw] leading-none text-white font-neuehaas tracking-wider font-semibold">
+						How Adobe <br> firefly works behind the scenes</h1>
+
+					<div class="container absolute bottom-[5vw] flex justify-center items-center w-full">
+						<img class="motion-image w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] absolute"
+							src="./images/firefly_img.png" alt="arrow" loading="lazy">
+						<!-- <img class="motion-image w-[50px] h-[50px] blur-xl brightness-[5] opacity-50 sm:w-[100px] sm:h-[100px] absolute"
+							src="/images/3d-arrow.webp" alt="arrow"> -->
+
+
+						<svg class="chart w-[80vw] xl:w-[60vw] " viewBox="0 0 1724 789" fill="none">
+							<path class="curve"
+								d="M26 787C221.429 758.5 639.908 644.959 806.563 459.5C985.834 260 1000.45 169.5 1037 84"
+								stroke="white" stroke-width="4" stroke-dasharray="20 20" />
+							<path class="ani-curve"
+								d="M26 787C221.429 758.5 639.908 644.959 806.563 459.5C985.834 260 1000.45 169.5 1037 84"
+								stroke="#dadada" stroke-width="6" />
+
+							<!-- Bottom Line -->
+							<line x1="26" y1="786" x2="2131" y2="786" stroke="white" stroke-width="4" />
+
+							<!-- Dots -->
+							<circle cx="512" cy="647" r="13" fill="white" />
+							<circle cx="710" cy="541" r="13" fill="white" />
+							<circle cx="847" cy="415" r="13" fill="white" />
+							<circle cx="918" cy="322" r="13" fill="white" />
+							<circle cx="987" cy="203" r="13" fill="white" />
+
+							<!-- Texts -->
+							<text x="571.422" y="663.315" fill="#fff" class="text-[1.7rem] opacity-50">Data Input: "User provides input data."</text>
+							<text x="754.739" y="554.401" fill="#fff" class="text-[1.7rem] opacity-50">AI Processing: "AI analyzes the input."</text>
+							<text x="890.739" y="437.401" fill="#fff" class="text-[1.7rem] opacity-50">Generation: "Content is generated automatically."</text>
+							<text x="962.630" y="340.000" fill="#fff" class="text-[1.7rem] opacity-50">Refinement: "Output is refined and enhanced."</text>
+							<text x="1027.29" y="218.000" fill="#fff" class="text-[1.7rem] opacity-50">Output and Feedback: "User reviews and adjusts results."</text>
+
+							<!-- Crown -->
+							<path class="crown opacity-0"
+								d="M1103.14 16.1484C1104.84 15.082 1105.97 13.1473 1105.97 10.9688C1105.97 7.60195 1103.3 4.875 1100 4.875C1096.7 4.875 1094.03 7.60195 1094.03 10.9688C1094.03 13.1625 1095.16 15.082 1096.86 16.1484L1088.31 33.607C1086.95 36.3797 1083.43 37.1719 1081.05 35.2371L1067.75 24.375C1068.5 23.3543 1068.94 22.0898 1068.94 20.7188C1068.94 17.352 1066.27 14.625 1062.97 14.625C1059.67 14.625 1057 17.352 1057 20.7188C1057 24.0855 1059.67 26.8125 1062.97 26.8125C1063 26.8125 1063.05 26.8125 1063.08 26.8125L1069.9 65.1117C1070.72 69.743 1074.68 73.125 1079.31 73.125H1120.69C1125.31 73.125 1129.26 69.7582 1130.1 65.1117L1136.92 26.8125C1136.95 26.8125 1137 26.8125 1137.03 26.8125C1140.33 26.8125 1143 24.0855 1143 20.7188C1143 17.352 1140.33 14.625 1137.03 14.625C1133.73 14.625 1131.06 17.352 1131.06 20.7188C1131.06 22.0898 1131.5 23.3543 1132.25 24.375L1118.95 35.2371C1116.57 37.1719 1113.05 36.3797 1111.69 33.607L1103.14 16.1484Z"
+								fill="white" />
+						</svg>
+					</div>
+				</div>
+			</section>
+		</section>
+		
+      
+
+
+      <!--? FAQs Section -->
+      <section class="bg-[#000000] text-white faq px-10 py-12">
+        <div class="container mx-auto">
+          <div
+            class="sm:w-[60%] w-full  sm:text-[4vw] text-[5.5vw] font-grotesk font-light tracking-wide sm:leading-none  flex flex-col justify-center items-start">
+          </div>
+          <div class="flex sm:flex-row flex-col gap-8 justify-between px-4 py-10">
+            <h1 class="flex flex-col">
+              <span class="sm:text-4xl text-[7vw] leading-none font-semibold">Frequently</span>
+              <span class="italic sm:text-4xl text-[7vw] leading-none">asked questions</span>
+            </h1>
+            <p class="sm:text-xl text-[4vw] opacity-50">Discover quick answers to common questions <br
+                class="sm:block hidden"> and get clarity on how we partner
+              with you for your web design needs.</p>
+          </div>
+
+          <div class="faq-container flex sm:flex-row flex-col gap-[0.6vw] flex-wrap"></div>
+        </div>
+      </section>
+
+
+
+
+      <section class="relative w-full h-screen" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);">
+        <!-- ? footer-->
+        <footer class="fixed bottom-0 bg-[#050505] left-0 text-white footer w-screen h-screen">
+          <div class="w-full h-[40%] sm:h-[33%]  flex sm:flex-row flex-col sm:px-12 px-6">
+            <div class="logo sm:w-1/2 w-full h-full py-8 flex justify-start items-center">
+              <h2 class="sm:text-5xl text-3xl font-glacial">ADOBE</h2>
+            </div>
+            <hr class="opacity-30">
+            <div class="links sm:w-1/2 w-full h-full flex">
+              <div
+                class="w-1/2  sm:w-[33%] h-full flex flex-col justify-start sm:justify-center py-8 sm:items-end sm:text-xl text-lg font-neuehaas font-semibold tracking-wider">
+                <h1 class="mb-4 opacity-50">Company</h1>
+                <a href="#home"><h1>Home</h1></a>
+                <a href="about.html"><h1>About Us</h1></a>
+                <a href="services.html"><h1>Expertise</h1></a>
+              </div>
+              <div
+                class="w-1/2 sm:w-[33%] h-full flex flex-col justify-start sm:justify-center py-8 sm:items-end sm:text-xl text-lg font-neuehaas font-semibold tracking-wider">
+                <h1 class="mb-4 opacity-50">Work</h1>
+                <a href="ourwork.html"><h1>Our Work</h1></a>
+                <a href="contact.html"><h1>Contact Us</h1></a>
+              </div>
+              <div
+                class="w-[33%] h-full hidden sm:flex flex-col justify-start sm:justify-center py-8 sm:items-end sm:text-xl text-lg font-neuehaas font-semibold tracking-wider">
+                <h1 class="mb-4 opacity-50">Socials</h1>
+                <h1>Behance</h1>
+                <h1>Instagram</h1>
+                <h1>Linked in</h1>
+                <h1>Dribble</h1>
+              </div>
+            </div>
+          </div>
+          <hr class="w-[94%] mx-auto opacity-30">
+          <div class="w-full h-[40%] sm:h-[48%] ">
+            <div class="follow w-full h-full overflow-hidden flex flex-nowrap sm:gap-16 gap-8  sm:py-20 py-10">
+              <div class="follow__parts w-fit whitespace-nowrap flex items-center sm:gap-16 gap-8 py-5">
+                <h1
+                  class="text-white sm:text-[250px] text-[160px] leading-none font-neuehaas font-bold tracking-wide">
+                  LET'S MAKE YOUR VISION INTO REALITY
+                </h1>
+                <span
+                  class="bg-white sm:w-[12rem]  sm:h-[12rem] w-[8rem] h-[8rem] flex justify-center rounded-full sm:p-4 p-1 relative">
+                  <img class="circle-svg sm:w-[10rem] w-[7rem]" src="/images/circle2.svg" alt="">
+                </span>
+              </div>
+              <div class="w-fit follow__parts t whitespace-nowrap flex items-center sm:gap-16 gap-8 py-5">
+                <h1
+                  class="text-white sm:text-[250px] text-[160px] leading-none font-neuehaas font-bold tracking-wide">
+                  LET'S MAKE YOUR VISION INTO REALITY
+                </h1>
+                <span
+                  class="bg-white sm:w-[12rem]  sm:h-[12rem] w-[8rem] h-[8rem] flex justify-center rounded-full sm:p-4 p-1 relative">
+                  <img class="circle2-svg sm:w-[10rem] w-[7rem]" src="/images/circle2.svg" alt="">
+                </span>
+              </div>
+              <div class="w-fit follow__parts t whitespace-nowrap flex items-center sm:gap-16 gap-8 py-5">
+                <h1
+                  class="text-white sm:text-[250px] text-[160px] leading-none font-neuehaas font-bold tracking-wide">
+                  LET'S MAKE YOUR VISION INTO REALITY
+                </h1>
+                <span
+                  class="bg-white sm:w-[12rem]  sm:h-[12rem] w-[8rem] h-[8rem] flex justify-center rounded-full sm:p-4 p-1 relative">
+                  <img class="circle-svg sm:w-[10rem] w-[7rem]" src="/images/circle2.svg" alt="">
+                </span>
+              </div>
+            </div>
+          </div>
+          <hr class="w-[94%] mx-auto opacity-30">
+  
+          <div
+            class="w-full h-[20%] sm:h-[19%] bg-[#00000] flex  sm:flex-row flex-col sm:items-center justify-center gap-4 sm:justify-between sm:px-12 px-6">
+            <h1 class="font-neuehaas tracking-wider opacity-40 font-bold">Copyright © 2024 Adobe. All rights reserved.</h1>
+            <a class="font-neuehaas text-lg sm:text-2xl tracking-wide font-bold" href="#hero">Back to top ↑</a>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+
+    <script src="js/app.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
