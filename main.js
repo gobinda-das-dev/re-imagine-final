@@ -4,6 +4,7 @@ import marqueeAnimationFooter from './js/marqueeAnimationFooter'
 import faqAnimation from './js/faq'
 import { homepage } from "./js/data.json";
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import gsap from 'gsap'
 import Lenis from 'lenis'
 import ThreeDPinAnimation from './js/ThreeDPinAnimation';

@@ -50,18 +50,18 @@
         },
         {
           "img": "https://www.adobe.com/products/media_1719f96ecb7d15296d9a120dd8573ca9840388762.jpeg?width=2000&format=webply&optimize=medium",
-          "title": "Generative Fill",
-          "desc": "The next generation of Generative Fill is now in the Photoshop (beta) app. Create richer, more lifelike images with more control than ever before."
+          "title": "Text to Image",
+          "desc": "With the new Firefly Image 3 Model, you can create higher-quality images with better composition, photorealistic details, and improved mood and lighting."
         },
         {
-          "img": "https://www.adobe.com/products/media_1c2c9e62626b7b4df13882c013438725ae05464d6.jpeg?width=2000&format=webply&optimize=medium",
-          "title": "Generative Fill",
-          "desc": "The next generation of Generative Fill is now in the Photoshop (beta) app. Create richer, more lifelike images with more control than ever before."
+          "img": "https://www.adobe.com/products/media_119c157164edf3742aea6f8438c84b006d011fd02.png?width=2000&format=webply&optimize=medium",
+          "title": "Generative Shape Fill",
+          "desc": "With new Generative Shape Fill, you can quickly fill your vector outline and explore a variety of options that match the look and feel of your own artwork."
         },
         {
-          "img": "https://www.adobe.com/products/media_1c2c9e62626b7b4df13882c013438725ae05464d6.jpeg?width=2000&format=webply&optimize=medium",
-          "title": "Generative Fill",
-          "desc": "The next generation of Generative Fill is now in the Photoshop (beta) app. Create richer, more lifelike images with more control than ever before."
+          "img": "https://www.adobe.com/products/media_1600dc340a60fa12f7ba9870ebb04a0983d3c6b3c.jpeg?width=2000&format=webply&optimize=medium",
+          "title": "Generative Remove",
+          "desc": "See everything you want and nothing you don’t. It’s easy to remove distractions from the background with Generative Remove powered by Firefly generative AI."
         }
       ],
       "partners": {
